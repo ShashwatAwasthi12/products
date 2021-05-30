@@ -1,0 +1,40 @@
+.container{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+.container > h1{
+    font-size: 5rem;
+}
+
+hr{
+    width: 70%;
+    margin: auto;
+}
+
+.product-card{
+   margin: 20px;
+   height: 250px;
+   width: 300px;
+   border-radius: 10px;
+   border: none;
+}
+
+.product-image{
+ width: inherit;
+ height: inherit;   
+ border-radius: inherit;
+ filter: drop-shadow(0 0 0.5rem rgb(165, 165, 165));
+}
+
+.product-name{
+font-size: 2rem;
+color: rgb(65, 63, 63);
+}
+
+.product-price{
+    font-size: 1.5rem;
+    position: relative;
+    top: 140px;
+    left: 180px;
+    color: beige;
+}
